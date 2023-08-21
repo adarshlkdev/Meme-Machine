@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(183, 88, 139);
+}
+
+.meme-machine{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block: 20px;
+
+}
+.meme-machine img{
+    height: 430px;
+    object-fit: cover;
+    border: 2px solid;
+    border: none;
+    box-shadow: 15px 10px 10px -5px rgba(0 , 0 , 0 , 0.3);
+    border-radius: 10px;
+    margin-block: 30px;
+    transition: all 0.4s ease;
+}
+
+.meme-machine img:hover{
+    transform: translateY(-4px);
+}
+
+.meme-machine .generate-meme-btn{
+    padding: 8px 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.generate-meme-btn:active{
+    background-color: white;
+    color: black;
+    border-color: none;
+
+}
+.meme-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-block: 19px;
+    color: black;
+    text-shadow: 0 0.8px white;
+}
+.meme-machine .meme-author{
+    font-size: 1.2rem;
+    font-family: 700;
+}
